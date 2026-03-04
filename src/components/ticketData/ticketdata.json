@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "TCK-1001",
+    "title": "Unable to login with correct password",
+    "description": "Customer reports that login fails even after entering the correct password. Reset link also not arriving.",
+    "customer": "Arafat Hossain",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T09:15:00+06:00"
+  },
+  {
+    "id": "TCK-1002",
+    "title": "Payment charged but order not confirmed",
+    "description": "After completing payment, the order page shows pending and no confirmation email received.",
+    "customer": "Nusrat Jahan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T12:40:00+06:00"
+  },
+  {
+    "id": "TCK-1003",
+    "title": "Ticket attachment upload failing",
+    "description": "Customer cannot upload PNG/JPG attachments. Upload button stays loading and then fails.",
+    "customer": "Md. Ibrahim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02T10:05:00+06:00"
+  },
+  {
+    "id": "TCK-1004",
+    "title": "Mobile layout overlaps on checkout",
+    "description": "On 425px devices, the checkout summary overlaps the address form and cannot scroll properly.",
+    "customer": "Sadia Akter",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T14:20:00+06:00"
+  },
+  {
+    "id": "TCK-1005",
+    "title": "Email notifications not received",
+    "description": "Customer is not receiving ticket update emails. Spam folder checked. Needs verification of email service.",
+    "customer": "Rafiul Islam",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-02T18:55:00+06:00"
+  },
+  {
+    "id": "TCK-1006",
+    "title": "Profile update shows success but data unchanged",
+    "description": "User updates phone number and address. Toast shows success but refreshed profile still shows old data.",
+    "customer": "Mim Chowdhury",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T09:30:00+06:00"
+  },
+  {
+    "id": "TCK-1007",
+    "title": "Search results missing recent tickets",
+    "description": "Customer searches by ID and title but tickets created today are not appearing in results.",
+    "customer": "Tanvir Ahmed",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03T11:10:00+06:00"
+  },
+  {
+    "id": "TCK-1008",
+    "title": "Slow dashboard loading on first visit",
+    "description": "Dashboard takes 8-12 seconds to load on first visit. Needs optimization for initial bundle/data fetch.",
+    "customer": "Jannatul Ferdous",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03T16:45:00+06:00"
+  },
+  {
+    "id": "TCK-1009",
+    "title": "Incorrect priority badge color",
+    "description": "Priority badges show the wrong color mapping (High appears as green, Low appears as red).",
+    "customer": "Hasan Mahmud",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T08:05:00+06:00"
+  },
+  {
+    "id": "TCK-1010",
+    "title": "Cannot mark ticket as resolved",
+    "description": "When clicking Complete, the ticket stays in the in-progress list and resolved count does not increase.",
+    "customer": "Farzana Karim",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T10:50:00+06:00"
+  },
+  {
+    "id": "TCK-1011",
+    "title": "Broken link in footer support email",
+    "description": "Footer email link opens blank page instead of email client. Needs correct mailto formatting.",
+    "customer": "Shihab Uddin",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T13:25:00+06:00"
+  },
+  {
+    "id": "TCK-1012",
+    "title": "Toast notifications not showing on mobile",
+    "description": "React-Toastify toasts appear on desktop but not visible on mobile view. Possibly z-index or container issue.",
+    "customer": "Rumana Sultana",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04T17:15:00+06:00"
+  }
+]
