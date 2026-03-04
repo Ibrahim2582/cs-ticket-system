@@ -8,8 +8,8 @@ const Home = () => {
 
     return (
         <div>
-            <Hero progessCount={progessCount} />
-            <CustomerTicket setProgressCount={setProgressCount} />
+            <Hero progessCount={progessCount} resolveCount={resolveCount} />
+            <CustomerTicket setProgressCount={setProgressCount} setResolveCount={setResolveCount} />
         </div>
     );
 };
