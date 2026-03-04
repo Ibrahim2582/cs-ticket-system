@@ -104,7 +104,7 @@
     "description": "React-Toastify toasts appear on desktop but not visible on mobile view. Possibly z-index or container issue.",
     "customer": "Rumana Sultana",
     "priority": "Medium",
-    "status": "Open",
+    "status": "Complete",
     "createdAt": "2026-03-04T17:15:00+06:00"
   }
 ]
