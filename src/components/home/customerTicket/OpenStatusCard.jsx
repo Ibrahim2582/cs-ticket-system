@@ -12,7 +12,7 @@ const OpenStatusCard = ({tickets}) => {
     "createdAt": "2026-03-03T16:45:00+06:00"
   } 
     return (
-        <div className="p-4">
+        <div className="p-4 shadow-sm rounded">
             <div>
                 <div className="flex items-center justify-between">
                     <h1 className='text-[#001931] pr-1 sm:pr-3 lg:pr-6 text-[18px] font-medium'>{ticket?.title}</h1>

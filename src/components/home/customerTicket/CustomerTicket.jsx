@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+﻿import { useState } from "react";
 import ticketdata from "../../ticketData/ticketdata.json";
 import OpenStatusCard from "./OpenStatusCard";
 import ProgressStatusCard from "./progressStatusCard";
@@ -29,7 +29,9 @@ const CustomerTicket = ({setResolveCount, setProgressCount}) => {
             <div className="pb-4">
                 <p className="text-2xl font-semibold text-[#34485A]">Resolved Task</p>
             </div>
-            <CompleteStatusCard />
+            {
+              ticketdata.map(ticket => ticket?.status === "Complete" && <CompleteStatusCard key={ticket?.id} />)
+            }
         </div>
       </div>
     </div>
