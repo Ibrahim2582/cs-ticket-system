@@ -1,5 +1,5 @@
 import React from "react";
-import plusIcon from "../../assets/Vector.svg"
+import plusIcon from "../../assets/Vector.svg";
 
 const Nabvar = () => {
   return (
@@ -29,21 +29,22 @@ const Nabvar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>FAQ</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Changelog</a>
+              </li>
+              <li>
+                <a>Blog</a>
+              </li>
+              <li>
+                <a>Download</a>
+              </li>
+              <li>
+                <a>Contact</a>
               </li>
             </ul>
           </div>
@@ -73,7 +74,10 @@ const Nabvar = () => {
               </li>
             </ul>
           </div>
-          <div className="flex justify-around items-center py-1 sm:py-2 px-2 sm:px-3 rounded bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><img src={plusIcon} alt="" /> <button className="sm:ml-1">New Ticket</button></div>
+          <div className="flex justify-around items-center py-1 sm:py-2 px-2 sm:px-3 rounded bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+            <img src={plusIcon} alt="" />{" "}
+            <button className="sm:ml-1">New Ticket</button>
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
             <Hero progessCount={progessCount} resolveCount={resolveCount} />
-            <CustomerTicket setProgressCount={setProgressCount} setResolveCount={setResolveCount} />
+            <CustomerTicket progessCount={progessCount} resolveCount={resolveCount} setProgressCount={setProgressCount} setResolveCount={setResolveCount} />
         </div>
     );
 };
