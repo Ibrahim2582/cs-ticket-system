@@ -1,8 +1,8 @@
 ﻿import { useEffect, useState } from "react";
 import ticketdata from "../../ticketData/ticketdata.json";
 import OpenStatusCard from "./OpenStatusCard";
-import ProgressStatusCard from "./progressStatusCard";
 import CompleteStatusCard from "./CompleteStatusCard";
+import ProgressStatusCard from "./ProgressStatusCard";
 
 const CustomerTicket = ({
   setResolveCount,
