@@ -20,6 +20,19 @@ const CustomerTicket = ({
       <div className="grid lg:col-span-8 gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2">
         {data.map(
           (ticket) =>
+            ["Open", "In Progress"].includes(ticket?.status) && (
+              <OpenStatusCard
+                key={ticket?.id}
+                ticket={ticket}
+                data={data}
+                setData={setData}
+                setProgressCount={setProgressCount}
+                progessCount={progessCount}
+              />
+            ),
+        )}
+        {/* {data.map(
+          (ticket) =>
             ticket?.status === "Open" && (
               <OpenStatusCard
                 key={ticket?.id}
@@ -43,7 +56,7 @@ const CustomerTicket = ({
                 progessCount={progessCount}
               />
             ),
-        )}
+        )} */}
       </div>
       <div className="flex lg:col-span-4 flex-col">
         <div>

@@ -18,9 +18,10 @@ const OpenStatusCard = ({ ticket, data, setData, setProgressCount, progessCount 
         ticket.status = "In Progress";
         const remainTickets = data.filter((t)=> t?.id !== ticket?.id)
         remainTickets.push(ticket)
+        const sortedTickets = remainTickets.sort((a, b) => a?.id - b?.id)
         setProgressCount(progessCount+1)
         console.log(progessCount);
-        setData(remainTickets)
+        setData(sortedTickets)
 
         Swal.fire({
           title: "Progress!",
@@ -63,7 +64,7 @@ const OpenStatusCard = ({ ticket, data, setData, setProgressCount, progessCount 
         <div className="flex justify-between items-center">
           <div className="flex justify-between items-center">
             <p className="text-[#627382] font-medium text-[14px]">
-              {ticket?.id}
+              #{ticket?.id}
             </p>
               {
               ticket?.priority === "High" && (<p className="text-red-500 font-medium text-[14px] pl-4">{ticket?.priority}</p>) ||
